@@ -1,1 +1,2 @@
-run as administrator
+# Note:
+Run as administrator.
